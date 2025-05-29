@@ -17,8 +17,8 @@ app.use('/teacher', (req, res) => {
     proxy.web(req, res, { target: 'http://localhost:5010' });
 });
 
-// START THE EXPRESS SERVER. 5000 is the PORT NUMBER
-app.listen(5000, () =>
-    console.log('EXPRESS Server Started at Port No: 5000'));
+// START THE EXPRESS SERVER. 4000 is the PORT NUMBER
+app.listen(4000, () =>
+    console.log('EXPRESS Server Started at Port No: 4000'));
 
 
